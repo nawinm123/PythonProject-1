@@ -1,0 +1,3 @@
+{
+  "script": "#!/bin/bash\n\necho 'Hello, World!'\nFILES=$(ls)\nfor FILE in $FILES\ndo\n  echo \"Processing $FILE\"\ndone"
+}
